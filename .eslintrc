@@ -1,0 +1,83 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "browser": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "debug": true
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "import",
+    "react-native"
+  ],
+  "rules": {
+    "camelcase": 0,
+    "one-var": "off",
+    "one-var-declaration-per-line": "off",
+    "consistent-return": "off",
+    "no-use-before-define": "error",
+    "import/no-extraneous-dependencies": 0,
+    "no-underscore-dangle": 0,
+    "object-curly-spacing": ["error", "never"],
+    "operator-linebreak": ["error", "before"],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "no-console": 0,
+    "max-len": [
+      "warn",
+      {
+        "code": 120
+      }
+    ],
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "arrow-body-style": "off",
+    "no-restricted-syntax": 0,
+    "no-await-in-loop": 0,
+    "react/destructuring-assignment": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-closing-bracket-location": [
+      1,
+      {
+        "nonEmpty": "after-props",
+        "selfClosing": "after-props"
+      }
+    ],
+    "react/jsx-first-prop-new-line": [
+      1,
+      "multiline"
+    ],
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "maximum": 1
+      }
+    ],
+    "react/require-default-props": 0,
+    "react/sort-comp": 0,
+    "react/jsx-fragments": 0
+  }
+}

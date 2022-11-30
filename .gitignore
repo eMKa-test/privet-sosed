@@ -1,0 +1,23 @@
+node_modules/
+docs/
+.expo/*
+.expo-shared/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+.editorconfig
+
+# macOS
+.DS_Store
+
+.idea/
+*.sublime*
+*.apk
+*.ipa
